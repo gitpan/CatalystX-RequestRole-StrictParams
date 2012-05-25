@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution CatalystX-RequestRole-StrictParams,
-version 0.01:
+version 0.02:
 
   Insist users specify HTTP method for form parameters
 

@@ -4,29 +4,29 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.30;
+use ExtUtils::MakeMaker 6.31;
 
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Insist users specify HTTP method for form parameters",
-  "AUTHOR" => "['Peter Sergeant <pete\@clueball.com>']",
-  "BUILD_REQUIRES" => {},
-  "CONFIGURE_REQUIRES" => {
-    "ExtUtils::MakeMaker" => "6.30"
+  'ABSTRACT' => 'Insist users specify HTTP method for form parameters',
+  'AUTHOR' => '[\'Peter Sergeant <pete@clueball.com>\']',
+  'BUILD_REQUIRES' => {},
+  'CONFIGURE_REQUIRES' => {
+    'ExtUtils::MakeMaker' => '6.31'
   },
-  "DISTNAME" => "CatalystX-RequestRole-StrictParams",
-  "EXE_FILES" => [],
-  "LICENSE" => "perl",
-  "NAME" => "CatalystX::RequestRole::StrictParams",
-  "PREREQ_PM" => {
-    "Catalyst" => 0,
-    "CatalystX::RoleApplicator" => 0,
-    "Test::Most" => 0
+  'DISTNAME' => 'CatalystX-RequestRole-StrictParams',
+  'EXE_FILES' => [],
+  'LICENSE' => 'perl',
+  'NAME' => 'CatalystX::RequestRole::StrictParams',
+  'PREREQ_PM' => {
+    'Catalyst' => '0',
+    'CatalystX::RoleApplicator' => '0',
+    'Test::Most' => '0'
   },
-  "VERSION" => "0.01",
-  "test" => {
-    "TESTS" => "t/*.t"
+  'VERSION' => '0.02',
+  'test' => {
+    'TESTS' => 't/*.t'
   }
 );
 

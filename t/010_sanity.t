@@ -22,7 +22,7 @@ my $treq = Class::MOP::Class->create( 'TestRequest' => (
 # Apply the role we're testing to it
 CatalystX::RequestRole::StrictParams->meta->apply( $treq );
 
-my $request = TestRequest->new();
+my $request = bless {}, "TestRequest";
 
 # These are the request callers we'll be using, and what
 # we expect

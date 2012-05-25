@@ -1,6 +1,6 @@
 package CatalystX::RequestRole::StrictParams;
-{
-  $CatalystX::RequestRole::StrictParams::VERSION = '0.01';
+BEGIN {
+  $CatalystX::RequestRole::StrictParams::VERSION = '0.02';
 }
 use Moose::Role;
 use Carp qw/croak/;
@@ -11,7 +11,7 @@ CatalystX::RequestRole::StrictParams - Insist users specify HTTP method for form
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
